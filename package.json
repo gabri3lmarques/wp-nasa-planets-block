@@ -1,0 +1,17 @@
+{
+  "name": "wp-nasa-planets-block",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-react": "^7.24.7",
+    "@wordpress/scripts": "^28.3.0"
+  }
+}
