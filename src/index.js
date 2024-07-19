@@ -15,7 +15,7 @@ registerBlockType('nasa/planets-block', {
       const fetchPlanet = async () => {
         try {
           const response = await axios.get(
-            `https://api.nasa.gov/planetary/apod?api_key=USE_SUA_API`
+            `https://api.nasa.gov/planetary/apod?api_key=GRUnQnlrJ62rUfshlMntT1g8IVY612sA5KgIkcCv`
           );
           setPlanet(response.data);
           setLoading(false);
